@@ -43,9 +43,8 @@ Planet.module.css
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/aarushibamal-cmyk/solar-system-ui.git
 
+git clone https://github.com/aarushibamal-cmyk/solar-system-ui.git
 🧪 How It Works
 Each planet is stored as an object inside an array
 The app uses .map() to dynamically render planet cards
@@ -64,5 +63,7 @@ Improve hover animations and transitions
 
 🤝Contributing
 Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+
 
 
