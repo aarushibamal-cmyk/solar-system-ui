@@ -53,7 +53,7 @@ Components are reused for better code management
 
 ## 📸 Preview
 
-Solar system(./assets/image.png)
+![Solar System](./assets/image.png)
 
 🌟 Future Improvements
 Add 3D planet animations 🌍
