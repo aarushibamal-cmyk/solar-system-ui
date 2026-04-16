@@ -1,33 +1,30 @@
 .card {
-  width: 220px;
-  background: #1e1e1e;
-  border-radius: 12px;
-  padding: 15px;
-  color: #fff;
-  margin: 10px;
-  border: 1px solid #fff;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-}
-
-
-.top {
-  margin-bottom: 10px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  max-width: 50%;         
 }
 
 .top h3 {
-  font-size: 18px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #e2e8f0;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-shadow: 0 0 16px rgba(99, 179, 237, 0.7);
 }
 
 .fact h2 {
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.4;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #94a3b8;
 }
-.description{
-  color: bisque;
 
+.description p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ffd9b0;
+  opacity: 0.85;
 }

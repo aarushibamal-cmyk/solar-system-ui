@@ -1,16 +1,68 @@
-# React + Vite
+# 🌌 Solar System Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+The Solar System Project is an interactive web application that visually represents the planets of our solar system. It provides information about each planet along with a simple and engaging UI to help users learn about space in an easy way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
+- 🌍 Displays all planets of the solar system
+- 🪐 Individual cards for each planet with details
+- 🌠 Clean and responsive UI design
+- 📱 Mobile-friendly layout
+- 🎨 Styled components / CSS for visual appeal
+- ⚡ Smooth rendering using React components (if applicable)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- Frontend: React.js
+- Styling: CSS / Tailwind CSS (edit if different)
+- Language: JavaScript (ES6+)
+- Build Tool: Create React App / Vite (edit if needed)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+/src
+App.jsx
+index.js
+index.css
+main.jsx
+/components
+ImageCard.jsx
+Cards.jsx
+Cards.module.css
+ImageCard.module.css
+Navbar.module.css
+Navbar.jsx
+Planet.module.css
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/aarushibamal-cmyk/solar-system-ui.git
+
+🧪 How It Works
+Each planet is stored as an object inside an array
+The app uses .map() to dynamically render planet cards
+CSS is used to align images and text in a structured layout
+Components are reused for better code management
+
+## 📸 Preview
+
+![Solar System Screenshot](./assets/image.png)
+
+🌟 Future Improvements
+Add 3D planet animations 🌍
+Include real-time planet data API
+Add dark/light mode toggle 🌙☀️
+Improve hover animations and transitions
+
+🤝Contributing
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+

@@ -3,7 +3,7 @@ import styles from './Navbar.module.css'
 const Navbar = () => {
   return (
     <div className={styles.heading}>
-      <h1>This is my navbar</h1>
+      <h1>Solar System</h1>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './components/Cards.jsx'
 import ImageCard from './components/ImageCard.jsx'
 import Navbar from './components/Navbar.jsx'
+import styles from './components/Planet.module.css'
 const solarSystem = [
   {
     name: "Sun",
@@ -60,15 +61,14 @@ const solarSystem = [
 ];
 const App = () => {
   return (
-    <div>
+    <div className={styles.solarSystem}>
       <Navbar/>
-      <h1>Solar System</h1>
-      {solarSystem.map(function(elem){
-        return <div> <Card name ={elem.name} fact ={elem.fact} description={elem.description}/> <ImageCard
-        image = {elem.link}/></div>
-        
-      })}
-
+      {solarSystem.map((planet) => (
+        <div className={styles.planetSection} key={planet.name}>
+          <Card name={planet.name} fact={planet.fact} description={planet.description}/>
+          <ImageCard image={planet.link}/>
+        </div>
+      ))}
     </div>
   )
 }

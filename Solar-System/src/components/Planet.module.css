@@ -1,0 +1,22 @@
+
+.planetSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  height: 100vh;     
+  scroll-snap-align: start; 
+  border-bottom: 1px solid rgba(99, 179, 237, 0.1);
+}
+
+.solarSystem {
+  scroll-snap-type: y mandatory; 
+  overflow-y: scroll;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/736x/1b/c5/3e/1bc53e53aa055c0247e30714a874adb5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
