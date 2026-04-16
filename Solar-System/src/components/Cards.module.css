@@ -1,0 +1,33 @@
+.card {
+  width: 220px;
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 15px;
+  color: #fff;
+  margin: 10px;
+  border: 1px solid #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.top {
+  margin-bottom: 10px;
+}
+
+.top h3 {
+  font-size: 18px;
+}
+
+.fact h2 {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.4;
+}
+.description{
+  color: bisque;
+
+}
