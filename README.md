@@ -11,7 +11,7 @@ The Solar System Project is an interactive web application that visually represe
 - 🌠 Clean and responsive UI design
 - 📱 Mobile-friendly layout
 - 🎨 Styled components / CSS for visual appeal
-- ⚡ Smooth rendering using React components (if applicable)
+
 
 ---
 
@@ -19,7 +19,7 @@ The Solar System Project is an interactive web application that visually represe
 - Frontend: React.js
 - Styling: CSS / Tailwind CSS (edit if different)
 - Language: JavaScript (ES6+)
-- Build Tool: Create React App / Vite (edit if needed)
+
 
 ---
 
