@@ -17,7 +17,7 @@ The Solar System Project is an interactive web application that visually represe
 
 ## 🛠️ Tech Stack
 - Frontend: React.js
-- Styling: CSS / Tailwind CSS (edit if different)
+- Styling: CSS 
 - Language: JavaScript (ES6+)
 
 
